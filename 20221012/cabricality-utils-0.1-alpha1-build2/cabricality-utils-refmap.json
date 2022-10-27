@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "com/dm/earth/cabricality/mixin/SimpleRegistryMixin": {
+      "set(ILnet/minecraft/util/registry/RegistryKey;Ljava/lang/Object;Lcom/mojang/serialization/Lifecycle;Z)Lnet/minecraft/util/registry/RegistryEntry;": "Lnet/minecraft/class_2370;method_31051(ILnet/minecraft/class_5321;Ljava/lang/Object;Lcom/mojang/serialization/Lifecycle;Z)Lnet/minecraft/class_6880;"
+    },
+    "com/dm/earth/cabricality/mixin/WrenchItemMixin": {
+      "useOnBlock": "Lcom/simibubi/create/content/contraptions/wrench/WrenchItem;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+    },
+    "com/dm/earth/cabricality/mixin/RegistryMixin": {
+      "register(Lnet/minecraft/util/registry/Registry;Lnet/minecraft/util/registry/RegistryKey;Ljava/lang/Object;)Ljava/lang/Object;": "Lnet/minecraft/class_2378;method_39197(Lnet/minecraft/class_2378;Lnet/minecraft/class_5321;Ljava/lang/Object;)Ljava/lang/Object;",
+      "register(Lnet/minecraft/util/registry/Registry;ILjava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;": "Lnet/minecraft/class_2378;method_10231(Lnet/minecraft/class_2378;ILjava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;"
+    },
+    "com/dm/earth/cabricality/mixin/TranslatableTextMixin": {
+      "<init>(Ljava/lang/String;)V": "Lnet/minecraft/class_2588;<init>(Ljava/lang/String;)V"
+    },
+    "com/dm/earth/cabricality/mixin/SchemasMixin": {
+      "build": "Lnet/minecraft/class_3551;method_15451(Lcom/mojang/datafixers/DataFixerBuilder;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/dm/earth/cabricality/mixin/SimpleRegistryMixin": {
+        "set(ILnet/minecraft/util/registry/RegistryKey;Ljava/lang/Object;Lcom/mojang/serialization/Lifecycle;Z)Lnet/minecraft/util/registry/RegistryEntry;": "Lnet/minecraft/class_2370;method_31051(ILnet/minecraft/class_5321;Ljava/lang/Object;Lcom/mojang/serialization/Lifecycle;Z)Lnet/minecraft/class_6880;"
+      },
+      "com/dm/earth/cabricality/mixin/WrenchItemMixin": {
+        "useOnBlock": "Lcom/simibubi/create/content/contraptions/wrench/WrenchItem;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+      },
+      "com/dm/earth/cabricality/mixin/RegistryMixin": {
+        "register(Lnet/minecraft/util/registry/Registry;Lnet/minecraft/util/registry/RegistryKey;Ljava/lang/Object;)Ljava/lang/Object;": "Lnet/minecraft/class_2378;method_39197(Lnet/minecraft/class_2378;Lnet/minecraft/class_5321;Ljava/lang/Object;)Ljava/lang/Object;",
+        "register(Lnet/minecraft/util/registry/Registry;ILjava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;": "Lnet/minecraft/class_2378;method_10231(Lnet/minecraft/class_2378;ILjava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;"
+      },
+      "com/dm/earth/cabricality/mixin/TranslatableTextMixin": {
+        "<init>(Ljava/lang/String;)V": "Lnet/minecraft/class_2588;<init>(Ljava/lang/String;)V"
+      },
+      "com/dm/earth/cabricality/mixin/SchemasMixin": {
+        "build": "Lnet/minecraft/class_3551;method_15451(Lcom/mojang/datafixers/DataFixerBuilder;)V"
+      }
+    }
+  }
+}

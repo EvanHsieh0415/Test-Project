@@ -1,0 +1,41 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "committee.nova.mcmodwiki",
+		"id": "msr",
+		"version": "${version}",
+		"metadata": {
+			"name": "MCMOD Search Reborn",
+			"description": "A short description of your mod.",
+			"contributors": {
+				"CNLimiter": "Owner",
+				"mcmod.cn": "Service Provider",
+				"MCMOD Dev": "Former Author",
+				"Tapio": "Maintainer"
+			},
+			"contact": {
+				"issues": "https://github.com/Nova-Committee/MSR-Quilt/issues",
+				"sources": "https://github.com/Nova-Committee/MSR-Quilt"
+			}
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"client_init": "committee.nova.mcmodwiki.MSRClient"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": "*"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": "*"
+			},
+			{
+				"id": "minecraft",
+				"versions": "*"
+			}
+		]
+	},
+	"mixin": "msr.mixins.json"
+}
